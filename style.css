@@ -1,0 +1,105 @@
+ul{
+    overflow: hidden;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    width:100%;
+    
+    
+
+}
+li {
+
+    float: right;
+    text-align: center;
+    padding-right: 200px;
+    border-right: 1px solid grey;
+}
+
+li a {
+    padding: 35px 35px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5em;
+    color: yellow
+    
+}
+li:hover{
+    background-color: grey
+}
+
+li a:hover{
+    background-color:grey;
+}
+.img{
+   float: left;
+   margin: 25px  300px  75px 120px;
+}
+
+.home_content {
+    overflow:hidden;
+    word-wrap: break-word;
+    margin: 50px 50px 50px 50px;
+    max-width: 600px;
+    font-size: 1.4em;
+    color:yellow;
+}
+body{
+    background-color: grey
+}
+
+.Name{
+   color: yellow;
+   font-size: 4em;
+}
+
+.production{
+    
+   display: inline-block;
+   padding-top: 50px;
+   padding-left: 150px;
+   padding-right: 150px;
+   
+}
+.P1{
+    max-width: 250px;
+    color:yellow;
+    font-size:1.1em;
+    
+    
+}
+.service{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 150px;
+   padding-right: 150px;
+}
+.P2{
+    max-width: 250px;
+    color: yellow;
+    font-size:1.1em;
+}
+.games{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 150px;
+   padding-right: 150px;
+}
+.P3{
+    max-width: 250px;
+    color: yellow;
+    font-size:1.1em;
+}
+
+
+
+
+ 
+
+
+ 
+    
+    
+
+
