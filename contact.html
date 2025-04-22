@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" link href="style.css">
+    <title>Contact</title>
+    <script>const form = document.querySelector('#form')
+        const submitButton = document.querySelector('#submit')
+        
+        form.addEventListener('submit', (e) => {
+          submitButton.disabled = true
+          e.preventDefault()
+          window.location.href = window.location.origin + '/success.html'
+        })</script>
+</head>
+<body>
+    <div class="name">
+        <nav class="name2">
+          <a href="about.html">About</a>
+          <a href="home.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+    <h2 class="name2">Ben Knapp</h2>
+    </div>
+    
+    <section class="section">
+        <form action="./success.html">
+            <h2>Contact form</h2>
+            <label for="fName">First name:</label>
+            <input type="text" name="fName" id="fName" required>
+
+            <br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" required>
+
+            <br><br>
+
+            <label for="texta">Text area:</label>
+            <textarea id="texta" name="texta" cols="50" rows="10" maxlength="200"></textarea>
+
+            <br><br>
+
+
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
